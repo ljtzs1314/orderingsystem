@@ -4,10 +4,11 @@ spring:
   application:
     name: order
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     name: orderingsystem
     url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: root
+    password: "074813"
 eureka:
   client:
     service-url:
@@ -16,4 +17,4 @@ eureka:
     prefer-ip-address: true
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.southwind.entity
+  type-aliases-package: com.example.order.entity
