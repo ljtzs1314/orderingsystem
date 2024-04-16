@@ -4,10 +4,11 @@ spring:
   application:
     name: account
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     name: orderingsystem
     url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: 074813
+    password: "074813"
 eureka:
   client:
     service-url:
