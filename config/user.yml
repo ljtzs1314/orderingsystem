@@ -17,4 +17,4 @@ eureka:
     prefer-ip-address: true
 mybatis:
   mapper-locations: classpath:repository/*.xml
-  type-aliases-package: com.example.entity
+  type-aliases-package: com.example.user.entity
